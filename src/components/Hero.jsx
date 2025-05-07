@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
         </div>
         <motion.div
-          className="rounded z-1 d-none d-md-flex flex-grow-1 justify-content-end max-width-450"
+          className="rounded z-1 d-none d-md-flex flex-grow-1 justify-content-center max-width-450"
           style={{ width: "450px", height: "400px" }}
           animate={{
             y: [-10, 10, -10, 10, -10],
