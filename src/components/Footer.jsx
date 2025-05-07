@@ -30,7 +30,7 @@ const Footer = () => {
                   <li className="mb-3" key={link.id}>
                     <Link
                       href="#"
-                      className="fs-6 text-white text-decoration-none fw-normal"
+                      className="fs-6 text-white text-decoration-none fw-normal link-info"
                     >
                       {link.text}
                     </Link>

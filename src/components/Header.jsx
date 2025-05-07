@@ -34,7 +34,7 @@ const Header = () => {
               {navLinks.map((nav) => (
                 <li className="nav-item dropdown" key={nav.id}>
                   <a
-                    className="nav-link dropdown-toggle"
+                    className="nav-link dropdown-toggle text-dark link-primary"
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
